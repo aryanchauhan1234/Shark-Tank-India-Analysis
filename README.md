@@ -1,54 +1,175 @@
-🦈 Shark Tank India Data Analysis & Investor Insights Dashboard
-📊 Project Overview
-This project leverages Python and IBM Cognos Analytics to analyze and visualize data from all seasons of Shark Tank India. The objective is to uncover key trends about pitchers, industries, and investor behavior, enabling deeper insights into startup funding dynamics in India.
+# 🦈 Shark Tank India Data Analysis & Investor Insights Dashboard
 
-🚀 Objectives
-Understand demographic and industrial patterns among pitchers
+## 📊 Project Overview
 
-Compare investor behavior across seasons and industries
+This project analyzes **597 startup pitches** from all seasons of **Shark Tank India** using **Python** and **IBM Cognos Analytics**. The objective is to uncover investment trends, startup performance, industry insights, and investor behavior through **Exploratory Data Analysis (EDA)**, data preprocessing, and interactive Business Intelligence dashboards.
 
-Build a dynamic dashboard using IBM Cognos for interactive exploration
+---
 
-📁 Project Structure
-Shark_Tank_Analysis.ipynb: Python-based data preprocessing and exploratory analysis
+## 🚀 Objectives
 
-Shark_Tank_Dashboard.pdf: IBM Cognos multi-tabbed dashboard showcasing key insights
+- Perform end-to-end data cleaning and preprocessing
+- Analyze startup funding patterns and investment trends
+- Evaluate investor participation and industry preferences
+- Identify key business KPIs and startup success metrics
+- Build an interactive IBM Cognos dashboard for data-driven decision-making
 
-📈 Key Insights
-📌 Pitcher Demographics:
+---
 
-Most pitches came from Maharashtra, followed by Delhi and Karnataka
+## 📂 Project Structure
 
-Majority of pitchers are aged 25–35
+```
+📁 Shark-Tank-India-Analysis
+│
+├── 📄 Shark_Tank_Analysis.ipynb      # Data Cleaning, EDA & Visualization
+├── 📄 Shark_Tank_Dashboard.pdf       # IBM Cognos Interactive Dashboard
+├── 📄 Shark_Tank_Dataset.csv         # Dataset
+└── 📄 README.md
+```
 
-Male participation significantly outweighs female and transgender representation
+---
 
-📌 Industry Trends:
+## 📈 Dataset Summary
 
-Most popular sectors: Food & Beverage, Beauty/Fashion, and Lifestyle/Home
+| Metric | Value |
+|---------|------:|
+| Startup Pitches Analyzed | **597** |
+| Original Features | **80** |
+| Final Analytical Features | **68** |
+| Total Funding Requested | **₹786.03 Cr** |
+| Total Investments Analyzed | **₹249.84 Cr** |
+| Startups Receiving Offers | **68%** |
+| Startups Accepting Offers | **58%** |
+| Investments ≥ ₹1 Cr | **97 Startups** |
 
-EV (Electrical Vehicle) and Medical/Health industries saw increased interest in recent seasons
+---
 
-📌 Investor Behavior:
+## 🔍 Key Analysis Performed
 
-Aman Gupta made the highest total investment (~₹50.6 Cr), focused on F&B and Tech
+- Data Cleaning & Missing Value Treatment
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Data Validation
+- Trend Analysis
+- Statistical Analysis
+- Investment Analytics
+- Industry-wise Performance Analysis
+- Investor-wise Investment Analysis
+- KPI Reporting
+- Business Intelligence Dashboard Development
 
-Namita Thapar invested ₹37.4 Cr with a strong focus on Medical/Health and F&B
+---
 
-Anupam Mittal emphasized Tech, F&B, and Lifestyle with ₹32 Cr invested
+## 📊 Dashboard Highlights
 
-Peyush Bansal showed diverse interests, investing ₹40.6 Cr across Tech, Health, and Beauty
+### 📍 Startup Insights
+- Industry-wise startup distribution
+- State-wise and demographic analysis
+- Pitch trends across seasons
+- Funding requested vs. funding received
 
-🧰 Tools & Technologies
-Python: Data cleaning, transformation (Pandas, NumPy, Matplotlib, Seaborn)
+### 📍 Investment Analysis
+- Total investments by season
+- Highest-funded startups
+- ₹1 Cr+ investment analysis
+- Deal acceptance and rejection trends
 
-IBM Cognos Analytics: Interactive dashboards with investor-specific tabs
+### 📍 Investor Analysis
+- Total investment by each Shark
+- Industry preferences
+- Investment frequency
+- Equity and debt analysis
+- Season-wise participation
 
-📌 Features of the Dashboard
-📍 Pitcher distribution by state, age, and gender
+### 📍 Business KPIs
+- Offer Rate
+- Deal Acceptance Rate
+- Investment Distribution
+- Industry Performance
+- Funding Trends
+- Startup Success Metrics
 
-📍 Industry-wise pitch and investment analysis
+---
 
-📍 Season-wise appearance and investments of each shark
+## 🛠️ Technologies Used
 
-📍 Shark-specific dashboards with top 10 industries, total investments, and debt analysis
+### Programming
+- Python
+
+### Libraries
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Business Intelligence
+- IBM Cognos Analytics
+
+---
+
+## 📌 Key Business Insights
+
+- Analyzed **597 startup pitches** across **80 business attributes**.
+- Reduced the dataset to **68 analysis-ready features** through preprocessing and feature engineering.
+- Evaluated **₹786.03 Cr** in funding requests and **₹249.84 Cr** in investments.
+- Found that **68%** of startups received investment offers.
+- Identified that **58%** of startups accepted investor offers.
+- Discovered **97 startups** secured investments exceeding **₹1 Crore**.
+- Identified top-performing industries, investor preferences, and funding patterns across multiple seasons.
+
+---
+
+## 💼 Skills Demonstrated
+
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Data Wrangling
+- Data Validation
+- Feature Engineering
+- Statistical Analysis
+- Data Visualization
+- Dashboard Development
+- Business Intelligence
+- KPI Analysis
+- Trend Analysis
+- Investment Analytics
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- IBM Cognos Analytics
+
+---
+
+## 📷 Dashboard Preview
+
+> *(Add screenshots of your IBM Cognos dashboard here.)*
+
+---
+
+## ⭐ Results
+
+✔️ Processed **597 startup records**
+
+✔️ Reduced **80 → 68 analytical features**
+
+✔️ Analyzed **₹786.03 Cr** funding requests
+
+✔️ Evaluated **₹249.84 Cr** investments
+
+✔️ Identified **68% offer rate**
+
+✔️ Identified **58% deal acceptance rate**
+
+✔️ Found **97 startups** receiving investments above **₹1 Crore**
+
+---
+
+## 👨‍💻 Author
+
+**Aryan Chauhan**
+
+- LinkedIn: *(Add your LinkedIn URL)*
+- GitHub: *(Add your GitHub URL)*
